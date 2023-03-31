@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+html {
+    background-image: linear-gradient(blue, lightblue);
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.digitalclock {
+    font-size: 10vh;
+    padding: 2vh;
+    display: flex;
+    background-color: rgba(0, 0, 117, 0.2);
+    border-radius: 50px
+}
+
+.digitalclock h3 {
+    padding: 0 5px;
+    text-shadow: 2px 2px 1px white, -2px -2px 1px white, -2px 2px 1px white, 2px -2px 1px white;
+    color: rgb(0, 0, 117);
+}
+
+footer {
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white, -1px 1px 1px white, 1px -1px 1px white;
+    color: rgb(0, 0, 117);
+}
+
